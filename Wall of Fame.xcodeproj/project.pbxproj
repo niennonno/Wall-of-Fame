@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8CAF1B1F9205DAA48418196 /* Pods_Wall_of_Fame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D209468CBC36CCCD20FCB6 /* Pods_Wall_of_Fame.framework */; };
 		D35F6ECE2114C47D007A8822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35F6ECD2114C47D007A8822 /* AppDelegate.swift */; };
 		D35F6ED02114C47D007A8822 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35F6ECF2114C47D007A8822 /* ViewController.swift */; };
 		D35F6ED32114C47D007A8822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35F6ED12114C47D007A8822 /* Main.storyboard */; };
 		D35F6ED52114C47F007A8822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35F6ED42114C47F007A8822 /* Assets.xcassets */; };
 		D35F6ED82114C47F007A8822 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35F6ED62114C47F007A8822 /* LaunchScreen.storyboard */; };
+		D3685561211DCEB100AE7C52 /* WallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3685560211DCEB100AE7C52 /* WallViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40DFDF1E3B017D6826CD6A3B /* Pods-Wall of Fame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wall of Fame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wall of Fame/Pods-Wall of Fame.debug.xcconfig"; sourceTree = "<group>"; };
+		9925059CF5F85CCA807566A2 /* Pods-Wall of Fame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wall of Fame.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wall of Fame/Pods-Wall of Fame.release.xcconfig"; sourceTree = "<group>"; };
 		D35F6ECA2114C47D007A8822 /* Wall of Fame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wall of Fame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35F6ECD2114C47D007A8822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D35F6ECF2114C47D007A8822 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		D35F6ED42114C47F007A8822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D35F6ED72114C47F007A8822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D35F6ED92114C47F007A8822 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3685560211DCEB100AE7C52 /* WallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallViewController.swift; sourceTree = "<group>"; };
+		E5D209468CBC36CCCD20FCB6 /* Pods_Wall_of_Fame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wall_of_Fame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8CAF1B1F9205DAA48418196 /* Pods_Wall_of_Fame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21621848EBD0CBD3A04D3B3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40DFDF1E3B017D6826CD6A3B /* Pods-Wall of Fame.debug.xcconfig */,
+				9925059CF5F85CCA807566A2 /* Pods-Wall of Fame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2CF35BA7AE5E5C0B7E089FD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5D209468CBC36CCCD20FCB6 /* Pods_Wall_of_Fame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D35F6EC12114C47D007A8822 = {
 			isa = PBXGroup;
 			children = (
 				D35F6ECC2114C47D007A8822 /* Wall of Fame */,
 				D35F6ECB2114C47D007A8822 /* Products */,
+				21621848EBD0CBD3A04D3B3D /* Pods */,
+				2CF35BA7AE5E5C0B7E089FD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +81,38 @@
 			isa = PBXGroup;
 			children = (
 				D35F6ECD2114C47D007A8822 /* AppDelegate.swift */,
-				D35F6ECF2114C47D007A8822 /* ViewController.swift */,
-				D35F6ED12114C47D007A8822 /* Main.storyboard */,
-				D35F6ED42114C47F007A8822 /* Assets.xcassets */,
-				D35F6ED62114C47F007A8822 /* LaunchScreen.storyboard */,
+				D368555D211DC3FB00AE7C52 /* Swift Files */,
+				D368555E211DC41200AE7C52 /* Resources */,
 				D35F6ED92114C47F007A8822 /* Info.plist */,
 			);
 			path = "Wall of Fame";
+			sourceTree = "<group>";
+		};
+		D368555D211DC3FB00AE7C52 /* Swift Files */ = {
+			isa = PBXGroup;
+			children = (
+				D35F6ECF2114C47D007A8822 /* ViewController.swift */,
+				D3685560211DCEB100AE7C52 /* WallViewController.swift */,
+			);
+			path = "Swift Files";
+			sourceTree = "<group>";
+		};
+		D368555E211DC41200AE7C52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D368555F211DC41F00AE7C52 /* Storyboards */,
+				D35F6ED42114C47F007A8822 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D368555F211DC41F00AE7C52 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D35F6ED12114C47D007A8822 /* Main.storyboard */,
+				D35F6ED62114C47F007A8822 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D35F6EDC2114C47F007A8822 /* Build configuration list for PBXNativeTarget "Wall of Fame" */;
 			buildPhases = (
+				237D7CBD48F0EE200578DDB4 /* [CP] Check Pods Manifest.lock */,
 				D35F6EC62114C47D007A8822 /* Sources */,
 				D35F6EC72114C47D007A8822 /* Frameworks */,
 				D35F6EC82114C47D007A8822 /* Resources */,
+				4CF4C72974006CEB0C963E02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +183,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		237D7CBD48F0EE200578DDB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wall of Fame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CF4C72974006CEB0C963E02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wall of Fame/Pods-Wall of Fame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wall of Fame/Pods-Wall of Fame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D35F6EC62114C47D007A8822 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3685561211DCEB100AE7C52 /* WallViewController.swift in Sources */,
 				D35F6ED02114C47D007A8822 /* ViewController.swift in Sources */,
 				D35F6ECE2114C47D007A8822 /* AppDelegate.swift in Sources */,
 			);
@@ -278,6 +383,7 @@
 		};
 		D35F6EDD2114C47F007A8822 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40DFDF1E3B017D6826CD6A3B /* Pods-Wall of Fame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +402,7 @@
 		};
 		D35F6EDE2114C47F007A8822 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9925059CF5F85CCA807566A2 /* Pods-Wall of Fame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
